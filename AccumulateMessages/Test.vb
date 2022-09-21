@@ -3,7 +3,9 @@ Option Explicit On
 Option Strict On
 Option Compare Text
 Class Test
-
+    ''' <summary>
+    ''' Manually verify function
+    ''' </summary>
     Public Shared Sub Manual()
 
         Dim userInput As String
@@ -37,7 +39,9 @@ Class Test
         Console.WriteLine("Have a nice day!")
 
     End Sub
-
+    ''' <summary>
+    ''' Automatic testing. Make all tests pass!
+    ''' </summary>
     Public Shared Sub Auto()
         Dim expected$, actual$, clearAfter%
         Dim testdata() = {"Hello",
