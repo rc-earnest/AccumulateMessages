@@ -3,7 +3,8 @@ Imports System
 
 Module MessageProgram
     Sub Main(args As String())
-        Test.Manual()
+        'uncomment to test interactively
+        'Test.Manual()
         Test.Auto()
     End Sub
 
