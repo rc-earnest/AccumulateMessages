@@ -2,7 +2,7 @@
 'RCET 2265
 'Spring 2025
 'Accumulitive Messages
-'https://github.com/rosstimo/myRepo.git    
+'https://github.com/rc-earnest/AccumulateMessages.git   
 Option Strict On
 Option Explicit On
 Option Compare Text
